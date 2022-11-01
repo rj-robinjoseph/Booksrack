@@ -10,14 +10,17 @@ html {
 
 body {
   /* background-color: #e1dfde !important; */
-  background-image: url("./images/Background-2.png");
+  /* background-image: url("./images/Background-2.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .background {
   width: 100vw;
   height: 100vh;
+  background-image: url("./images/bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: fixed;
   z-index: -100;
 }
