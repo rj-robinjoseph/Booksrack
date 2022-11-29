@@ -368,7 +368,7 @@ nav ul li {
 .footer-col-2 img {
   width: 180px;
   margin-bottom: 20px;
-  margin-left: 110px;
+  margin-left: 80px;
 }
 
 .footer-col-3,
@@ -377,7 +377,10 @@ nav ul li {
   text-align: center;
 }
 
-.footer-col-3,
+.footer-col-3 ul {
+  list-style-type: none;
+}
+
 .footer-col-4 ul {
   list-style-type: none;
 }
