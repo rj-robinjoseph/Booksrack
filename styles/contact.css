@@ -165,14 +165,16 @@ nav div span {
 .container-2 {
     width: 50vw;
     height: 100%;
+}
+
+.container-2 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: aqua; */
 }
 
-.container-2 span {
+.container-2 .form-heading {
     margin-top: 30px;
     margin-bottom: 40px;
     font-size: 35px;
@@ -184,7 +186,7 @@ nav div span {
     padding: 10px 120px 10px 10px;
     background-color: #eeeeee;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .container-2 textarea {
