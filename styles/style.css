@@ -103,7 +103,7 @@ nav div span {
   min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
   z-index: 1;
-
+  border-radius: 5px;
 }
 
 .dropdownmenu span {
@@ -111,6 +111,10 @@ nav div span {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+}
+
+.menu span:hover {
+  color: #4726A7;
 }
 
 /* .menu:hover .dropdownmenu {
@@ -564,4 +568,55 @@ nav div span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .top-seller {
+    height: 160px;
+  }
+
+  .wrapper-2 {
+    margin: 30px 15px;
+  }
+
+  .wrapper-3 {
+    margin: 30px 15px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4 {
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .top-seller {
+    height: 210px;
+  }
+
+  .top-seller-caption {
+    top: 25%;
+  }
+
+  .top-seller-caption h3 {
+    font-size: 18px;
+  }
+
+  .col-5 img {
+    width: 80%;
+  }
 }
