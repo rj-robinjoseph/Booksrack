@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Booksrack</title>
   <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <div class="background"></div>
   <header>
     <div class="logo">
@@ -184,6 +186,17 @@
     </div>
   </div>
 
+  <!-- Iframe -->
+  <div class="iframes wrapper-3">
+    <iframe width="680" height="360" src="https://www.youtube.com/embed/SKVcQnyEIT8" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe width="680" height="360" src="https://www.youtube.com/embed/zU7OgLjA5zk" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+
   <!-- Newsletter -->
   <div class="newsletter-background">
     <div class="newsletter-main">
@@ -275,6 +288,7 @@
       <p class="copyright">Copyright 2022 - Booksrack</p>
     </div>
   </div>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
