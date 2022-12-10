@@ -7,6 +7,7 @@
 html {
     font-family: "Josefin Sans", sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -14,6 +15,26 @@ body {
     /* background-image: url("./images/Background-2.png");
     background-repeat: no-repeat;
     background-size: cover;*/
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #8b70d1;
+    color: white;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
 
 .background {
@@ -103,7 +124,7 @@ nav div span {
     min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
     z-index: 1;
-
+    border-radius: 5px;
 }
 
 .dropdownmenu span {
@@ -113,9 +134,13 @@ nav div span {
     display: block;
 }
 
+.menu span:hover {
+    color: #4726A7;
+}
+
 /* .menu:hover .dropdownmenu {
     display: block;
-} */
+  } */
 
 .dropdown:hover .dropdownmenu {
     display: block;
@@ -126,69 +151,69 @@ nav div span {
     color: #4726A7;
 }
 
-
-.wrapper-2 {
-    margin-top: 100px;
-    margin: 100px 50px 30px 50px;
+.wrapper {
+    width: 90%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: 150px 60px 60px 60px;
 }
 
-.wrapper-2 h3 {
-    font-weight: 600;
+.left {
+    width: 350px;
 }
 
-.top-seller-container {
+.left img {
     width: 100%;
+    border-radius: 10px;
+}
+
+.right {
+    width: 600px;
+}
+
+.right h1 {
+    font-weight: bold;
+    color: #000000;
+}
+
+.right p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.a-name {
+    font-weight: bold;
+}
+
+.price {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    margin: auto;
 }
 
-.top-seller {
-    /* width: 280px;
-    height: 300px; */
-
-    margin: 15px 20px 30px;
-    border-radius: 6px;
+.price span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-.top-seller img {
-    width: 240px;
-    height: 300px;
+.price :nth-child(2) {
+    margin-left: 25px;
+    color: red;
+}
+
+.buttons :nth-child(2) {
+    margin-left: 25px;
+    background-color: #6D35BA;
+    border-color: #5603AD;
+}
+
+.buttons button {
+    padding: 5px 10px;
     border-radius: 5px;
-}
-
-.top-seller-1 {
-    background-color: aqua;
-}
-
-.top-seller-2 {
-    background-color: rgb(13, 46, 46);
-}
-
-.top-seller-3 {
-    background-color: gold;
-}
-
-.top-seller-4 {
-    background-color: blue;
-}
-
-.top-seller-5 {
-    background-color: hotpink;
-}
-
-.top-seller-caption {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0; */
+    color: #fff;
+    background-color: #8b70d1;
+    border-color: #4726A7;
 }
 
 /* Newsletter */
