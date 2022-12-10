@@ -364,7 +364,7 @@ nav div span {
 .top-seller {
   /* width: 280px;
   height: 300px; */
-
+  cursor: pointer;
   margin: 15px 20px 30px;
   border-radius: 6px;
 }
@@ -668,7 +668,7 @@ nav div span {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-  .top-seller {
+  /* .top-seller {
     height: 160px;
   }
 
@@ -678,7 +678,7 @@ nav div span {
 
   .wrapper-3 {
     margin: 30px 15px;
-  }
+  } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -691,7 +691,7 @@ nav div span {
     margin-bottom: 20px;
   }
 
-  .top-seller {
+  /* .top-seller {
     height: 210px;
   }
 
@@ -705,9 +705,5 @@ nav div span {
 
   .col-5 img {
     width: 80%;
-  }
-}
-
-.discover-slide {
-  margin-top: 500px;
+  } */
 }
