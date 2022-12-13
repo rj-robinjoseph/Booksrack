@@ -241,6 +241,11 @@ nav div span {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.div1:hover {
+  transform: scale(1.03);
 }
 
 .div1 span {
@@ -266,6 +271,11 @@ nav div span {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.div2:hover {
+  transform: scale(1.03);
 }
 
 .div2 span {
