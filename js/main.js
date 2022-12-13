@@ -34,3 +34,23 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+// Validation
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  let y = document.forms["myForm"]["femail"].value;
+  let z = document.forms["myForm"]["fphone"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  if (y == ""){
+  alert("Email must be filled out");
+    return false;
+  }
+  if (z == ""){
+  alert("Phone must be filled out");
+    return false;
+  }
+}

@@ -48,12 +48,12 @@
 
         </div>
         <div class="container-3">
-            <form action="">
+            <form action="" name="myForm" onsubmit="return validateForm()" method="post">
                 <span class="form-heading">Contact Us</span>
-                <input required type="text" placeholder="Name *" />
-                <input required type="email" placeholder="Email *" />
-                <input required type="phone" placeholder="Phone *" />
-                <input required type="text" placeholder="Company" />
+                <input type="text" name="fname" placeholder="Name *" />
+                <input type="email" name="femail" placeholder="Email *" />
+                <input type="phone" name="fphone" placeholder="Phone *" />
+                <input type="text" placeholder="Company" />
                 <textarea placeholder="Message"></textarea>
                 <input type="submit" value="Submit">
             </form>
@@ -123,6 +123,7 @@
             <p class="copyright">&copy; Copyright 2022 - Booksrack</p>
         </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
