@@ -1,24 +1,5 @@
 /* Media Queries */
-
-
-@media only screen and (max-width: 600px) {}
-
-
-@media only screen and (max-width: 600px) {}
-
-
-@media only screen and (max-width: 768px) {}
-
-
-@media only screen and (max-width: 992px) {
-
-    .footer-col-2,
-    .footer-col-3,
-    .footer-col-4 {
-        min-width: 200px;
-        margin-bottom: 20px;
-    }
-}
+/* HomePage */
 
 @media only screen and (max-width: 1200px) {
     .top-seller-container {
@@ -53,5 +34,88 @@
         width: 300px;
         text-align: center;
 
+    }
+
+    iframe {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .footer-col-2,
+    .footer-col-3,
+    .footer-col-4 {
+        min-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .iframes {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 600px;
+    }
+
+    iframe:nth-child(1) {
+        margin-bottom: 30px;
+    }
+
+    .newsletter-left .newsletter-text ul {
+        margin-left: 20px;
+    }
+
+    .newsletter-right .newsletter-sub {
+        width: 90%;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .row-2 {
+        flex-direction: column;
+    }
+
+    .logos {
+        flex-direction: row;
+    }
+
+    .col-5 {
+        width: 90px;
+    }
+
+    iframe {
+        width: 450px;
+    }
+
+    .wrapper-1 {
+        margin: 100px 20px 30px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 25px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .carousel-indicators {
+        bottom: 75px !important;
+    }
+
+    .carousel-inner,
+    .carousel-control {
+        height: 350px;
     }
 }
